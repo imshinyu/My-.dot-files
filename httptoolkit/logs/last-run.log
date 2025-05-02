@@ -1,0 +1,51 @@
+--- Launching HTTP Toolkit desktop v1.20.1 at 2025-05-02T22:43:22.987Z ---
+Server cleanup check completed
+Port check completed
+Starting server
+Config checked in 11 ms
+Certificates setup in 1002 ms
+Standalone server started in 46 ms
+Server started in 108 ms
+Total startup took 1168 ms
+INFO: Initialising UI (version 0147fd8eac40a05da153c4ce2c6ada75246dcacf)
+INFO: Account store initialized
+INFO: UI store initialized
+INFO: Proxy settings loaded
+(node:71096) Warning: Using insecure HTTP parsing
+(Use `node --trace-warnings ...` to show where the warning was created)
+INFO: API store initialized
+WARN: %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+Mock session started, http on port 8000, webrtc enabled
+Created docker-tunnel-proxy-8000
+Docker not available: connect ENOENT /var/run/docker.sock
+INFO: Server started
+Webextension installed at /tmp/httptoolkit-webextension
+INFO: Config loaded
+INFO: Server started on port 8000
+INFO: Proxy store initialized (server version 1.20.1)
+Usbmux iOS scanning failed: connect ENOENT /var/run/usbmuxd
+INFO: Rules store initialized
+Detected terminal command: alacritty
+INFO: Events store initialized
+INFO: Send store initialized
+httptoolkit-server: Updating CLI... fetching manifest
+INFO: Service worker loaded
+httptoolkit-server: Updating CLI... already on latest version: 1.20.1
+Browser cache updated
+INFO: Interceptor store initialized
+INFO: App started, rendering
+httptoolkit-server: Updating CLI... fetching manifest
+httptoolkit-server: Updating CLI... already on latest version: 1.20.1
+INFO: Previous server version was null
+WARN: Element resized, but no ref available
+WARN: Element resized, but no ref available
+Removed docker-tunnel-proxy-8000
+Shutting down after API call...
+Uninstalling webextension from /tmp/httptoolkit-webextension

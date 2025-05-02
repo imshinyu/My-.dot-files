@@ -1,0 +1,12 @@
+{
+  "browsers": [
+    {
+      "regex": {},
+      "profile": "/home/khalyl/.config/httptoolkit/chrome-136.0.7103.59",
+      "type": "chrome",
+      "name": "chrome",
+      "command": "google-chrome-stable",
+      "version": "136.0.7103.59"
+    }
+  ]
+}
