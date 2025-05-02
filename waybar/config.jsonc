@@ -1,11 +1,11 @@
 // -*- mode: jsonc -*-
 {
-    "reload_style_on_change": true,
+      "reload_style_on_change": true,
     // "layer": "top", // Waybar at top layer
     //"position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 0, // Gaps between modules (4px)
+  "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "hyprland/window",
@@ -18,14 +18,12 @@
     "modules-right": [
         "pulseaudio",
         "keyboard-state",
-        //"power-profiles-daemon",
         "memory",
         "cpu",
         "temperature",
         "backlight",
         "hyprland/language",
         "battery",
-        "battery#bat2",
         "clock",
         "tray",
         "custom/power"
@@ -93,7 +91,7 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
+         "icon-size": 21,
         "spacing": 10
     },
     "clock": {
@@ -139,17 +137,6 @@
     "battery#bat2": {
         "bat": "BAT2"
     },
-    "power-profiles-daemon": {
-      "format": "{icon}",
-      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-      "tooltip": true,
-      "format-icons": {
-        "default": "",
-        "performance": "",
-        "balanced": "",
-        "power-saver": ""
-      }
-    },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon} {format_source}",
@@ -182,7 +169,7 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : "   ",
 		"tooltip": false,
     "on-click": "wlogout"
     }
