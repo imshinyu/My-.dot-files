@@ -1,2 +1,3 @@
-2025/05/02-23:27:22.338 eed9 Creating DB /home/khalyl/.config/YouTube Music/Session Storage since it was missing.
-2025/05/02-23:27:22.344 eed9 Reusing MANIFEST /home/khalyl/.config/YouTube Music/Session Storage/MANIFEST-000001
+2025/05/03-21:37:12.726 6b90 Reusing MANIFEST /home/khalyl/.config/YouTube Music/Session Storage/MANIFEST-000001
+2025/05/03-21:37:12.727 6b90 Recovering log #3
+2025/05/03-21:37:12.728 6b90 Reusing old log /home/khalyl/.config/YouTube Music/Session Storage/000003.log 

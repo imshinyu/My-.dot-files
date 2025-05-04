@@ -1,2 +1,3 @@
-2025/05/02-23:27:21.457 eed8 Creating DB /home/khalyl/.config/YouTube Music/Local Storage/leveldb since it was missing.
-2025/05/02-23:27:21.503 eed8 Reusing MANIFEST /home/khalyl/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-21:37:11.530 6b90 Reusing MANIFEST /home/khalyl/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-21:37:11.553 6b90 Recovering log #3
+2025/05/03-21:37:11.555 6b90 Reusing old log /home/khalyl/.config/YouTube Music/Local Storage/leveldb/000003.log 

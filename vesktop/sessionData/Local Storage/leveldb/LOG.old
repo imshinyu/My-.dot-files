@@ -1,2 +1,6 @@
-2025/05/02-23:57:32.135 134b1 Creating DB /home/khalyl/.config/vesktop/sessionData/Local Storage/leveldb since it was missing.
-2025/05/02-23:57:32.204 134b1 Reusing MANIFEST /home/khalyl/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-21:37:17.272 6bf8 Reusing MANIFEST /home/khalyl/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/05/03-21:37:17.341 6bf8 Recovering log #14
+2025/05/03-21:37:17.342 6bf8 Reusing old log /home/khalyl/.config/vesktop/sessionData/Local Storage/leveldb/000014.log 
+2025/05/03-21:44:24.279 6bf9 Level-0 table #19: started
+2025/05/03-21:44:24.285 6bf9 Level-0 table #19: 109391 bytes OK
+2025/05/03-21:44:24.289 6bf9 Delete type=0 #14

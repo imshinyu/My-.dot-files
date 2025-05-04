@@ -1,2 +1,3 @@
-2025/05/02-20:03:58.991 3203 Creating DB /home/khalyl/.config/google-chrome/Default/Extension State since it was missing.
-2025/05/02-20:03:59.083 3203 Reusing MANIFEST /home/khalyl/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2025/05/03-20:20:54.499 5777 Reusing MANIFEST /home/khalyl/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2025/05/03-20:20:54.499 5777 Recovering log #3
+2025/05/03-20:20:54.501 5777 Reusing old log /home/khalyl/.config/google-chrome/Default/Extension State/000003.log 

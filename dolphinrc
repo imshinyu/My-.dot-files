@@ -5,3 +5,9 @@ ViewPropsTimestamp=2025,5,2,9,11,22.286
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
+
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
+[PreviewSettings]
+Plugins=ebookthumbnail,djvuthumbnail,directorythumbnail,fontthumbnail,jpegthumbnail,imagethumbnail,appimagethumbnail,audiothumbnail,windowsexethumbnail,exrthumbnail,opendocumentthumbnail,comicbookthumbnail,svgthumbnail,windowsimagethumbnail,kraorathumbnail,cursorthumbnail,gdk-pixbuf-thumbnailer,gsf-office
