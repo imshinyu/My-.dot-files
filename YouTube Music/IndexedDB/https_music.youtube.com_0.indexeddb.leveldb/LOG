@@ -1,3 +1,12 @@
-2025/05/03-22:11:11.785 cbd4 Reusing MANIFEST /home/khalyl/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/03-22:11:11.786 cbd4 Recovering log #18
-2025/05/03-22:11:11.803 cbd4 Reusing old log /home/khalyl/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000018.log 
+2025/05/04-19:30:48.360 138b Reusing MANIFEST /home/khalyl/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/04-19:30:48.361 138b Recovering log #18
+2025/05/04-19:30:48.430 138b Reusing old log /home/khalyl/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000018.log 
+2025/05/04-19:32:34.046 137e Level-0 table #23: started
+2025/05/04-19:32:34.065 137e Level-0 table #23: 1300496 bytes OK
+2025/05/04-19:32:34.071 137e Delete type=0 #18
+2025/05/04-19:42:22.399 137e Compacting 1@1 + 1@2 files
+2025/05/04-19:42:22.429 137e Generated table #24@1: 394 keys, 24045 bytes
+2025/05/04-19:42:22.429 137e Compacted 1@1 + 1@2 files => 24045 bytes
+2025/05/04-19:42:22.431 137e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/04-19:42:22.432 137e Delete type=2 #23
+2025/05/04-19:42:22.432 137e Delete type=2 #20

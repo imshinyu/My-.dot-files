@@ -1,13 +1,12 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     /*font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
-    font-family: "Readex Pro","FontAwesome";
+    font-family: "Jetbrains Mono",bold;
     font-size: 13px;
 }
 
 window#waybar {
-    background-color: #000000;
-    border-bottom: 2px solid #2F6C4C;
+    background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -17,30 +16,14 @@ window#waybar {
       opacity: 0.2;
   }
 
-  /*
-  window#waybar.empty {
-      background-color: transparent;
-  }
-  window#waybar.solo {
-      background-color: #FFFFFF;
-  }
-  */
-
-  window#waybar.termite {
-      background-color: #3F3F3F;
-  }
-
-  window#waybar.chromium {
-      background-color: #000000;
-      border: none;
-  }
-
   button {
       /* Use box-shadow instead of border so the text isn't offset */
-      box-shadow: inset 0 -3px transparent;
+      box-shadow: inset 0 -3px #1d1d1d;
       /* Avoid rounded borders under each button name */
       border: unset;
-      border-radius: 0;
+      margin-right: 2px;
+      margin-left: 2px;
+      border-radius: 5px;
   }
 
     /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -52,12 +35,12 @@ window#waybar {
 
     /* you can set a style on hover for any module like this */
     #pulseaudio:hover {
-        background-color: #0d0d0d;
+        background-color: rgba(0,0,0,0.5);
     }
 
     #workspaces button {
         padding: 0 5px;
-        background-color: transparent;
+        background-color: #1d1d1d;
         color: #ffffff;
     }
 
@@ -67,12 +50,12 @@ window#waybar {
 
     #workspaces button.active {
         background-color: #2F6C4C;
-        box-shadow: inset 0 -2px #ffffff;
+        box-shadow: inset 0 0px #ffffff;
     }
 
     #workspaces button.urgent {
         animation: blink 1s infinite;
-        background-color: #ff0000;
+        opacity: 0.5;
     }
 
     #mode {
@@ -80,25 +63,19 @@ window#waybar {
         box-shadow: inset 0 -3px #ffffff;
     }
 
-    #clock,
-    #battery,
-    #cpu,
-    #memory,
-    #disk,
-    #temperature,
-    #backlight,
+  #clock,
+  #battery,
+  #cpu,
+  #memory,
+  #temperature,
+  #backlight,
   #pulseaudio,
-  #wireplumber,
-  #custom-media,
   #tray,
   #mode,
-  #idle_inhibitor,
-  #scratchpad,
-  #power-profiles-daemon,
-  #keyboard-state,
-  #mpd {
-      padding: 0px 10px;
-      color: #ffffff;
+  #power,
+  #keyboard-state{
+    padding: 0px 10px;
+    color: #ffffff;
   }
 
   #window,
@@ -117,13 +94,13 @@ window#waybar {
   }
 
   #clock {
-      background-color: transparent;
+      background-color: #1d1d1d;
       border: 2px solid #2F6C4C;
       border-radius: 10px;
   }
 
   #battery {
-      background-color: transparent;
+      background-color: #1d1d1d;
       border: 2px solid #2F6C4C;
       border-radius: 10px;
       color: #ffffff;
@@ -131,7 +108,7 @@ window#waybar {
 
   #battery.charging, #battery.plugged {
       color: #ffffff;
-      background-color: transparent;
+      background-color: #1d1d1d;
       border:2px solid #26A65B;
       border-radius: 10px;
   }
@@ -144,7 +121,7 @@ window#waybar {
 
   /* Using steps() instead of linear as a timing function to limit cpu usage */
   #battery.critical:not(.charging) {
-      background-color: transparent;
+      background-color: #1d1d1d;
       border: 2px solid #f53c3c;
       border-radius: 10px;
       color: #ffffff;
@@ -154,28 +131,9 @@ window#waybar {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-/*
-#power-profiles-daemon {
-    padding-right: 15px;
-}
 
-#power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.balanced {
-    background-color: #2980b9;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
-}
-*/
 #keyboard-state{
-    background-color: transparent;
+    background-color: #1d1d1d;
     color: #000000;
 }
 label:focus {
@@ -184,98 +142,52 @@ label:focus {
 
 #cpu {
 
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
 }
 
 #memory {
-    background-color: transparent;
-    border: 2px solid #2F6C4C;
-    border-radius: 10px;
-}
-
-#disk {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
 }
 
 #backlight {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
 }
 
 #pulseaudio {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
     color: #ffffff;
 }
 
 #pulseaudio.muted {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border-radius: 10px;
     border-color: #90b1b1;
     color: #ffffff;
 }
 
-#wireplumber {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #2F6C4C;
-    color: #000000;
-}
-
-#wireplumber.muted {
-
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #18d350;
-}
-
-#custom-media.custom-vlc {
-
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #ffa000;
-}
-
 #temperature {
 
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
 }
 
 #temperature.critical {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #eb4d4b;
     border-radius: 10px;
 }
 
 #tray {
-    background-color: transparent;
+    background-color: #1d1d1d;
     border: 2px solid #2F6C4C;
     border-radius: 10px;
     margin-left: 2px;
@@ -288,86 +200,38 @@ label:focus {
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
-    background-color: transparent;
+    background-color: #1d1d1d;
     border-width: 2px;
     border-radius: 10px;
     border-color: #eb4d4b;
 }
 
-#idle_inhibitor {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #2d3436;
-}
-
-#idle_inhibitor.activated {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #ecf0f1;
-    color: #2d3436;
-}
-
-#mpd {
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #2F6C4C;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #f53c3c;
-}
-
-#mpd.stopped {
-
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #90b1b1;
-}
-
-#mpd.paused {
-
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #51a37a;
-}
-
 #language {
     border: 2px solid #2F6C4C;
     border-radius: 10px;
-    background: transparent;
+    background: #1d1d1d;
     color: #ffffff;
     min-width: 70px;
 }
 
 #keyboard-state {
-    background: #97e1ad;
-    color: #000000;
-    min-width: 16px;
+    border: 2px solid #2F6C4C;
+    border-radius: 10px;
+    background: #1d1d1d;
+    color: #ffffff;
 }
 
 #keyboard-state > label {
-    padding: 0 5px;
+    padding: 0px;
 }
 
 #keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
+    background: #1d1d1d;
 }
-#power > label{
+#power {
     border: 2px solid #2F6C4C;
     border-radius: 10px;
-    background: transparent;
+    background: #1d1d1d;
     color: #ffffff;
-    padding: 5px 5px;
-    margin: 0 5px;
     min-width: 70px;
 }

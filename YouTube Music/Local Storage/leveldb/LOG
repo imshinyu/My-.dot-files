@@ -1,3 +1,9 @@
-2025/05/03-22:11:08.227 cbc7 Reusing MANIFEST /home/khalyl/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
-2025/05/03-22:11:08.239 cbc7 Recovering log #3
-2025/05/03-22:11:08.241 cbc7 Reusing old log /home/khalyl/.config/YouTube Music/Local Storage/leveldb/000003.log 
+2025/05/04-19:30:46.916 137d Reusing MANIFEST /home/khalyl/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/05/04-19:30:46.934 137d Recovering log #3
+2025/05/04-19:30:46.936 137d Reusing old log /home/khalyl/.config/YouTube Music/Local Storage/leveldb/000003.log 
+2025/05/04-19:38:48.219 137e Level-0 table #5: started
+2025/05/04-19:38:48.221 137e Level-0 table #5: 14666 bytes OK
+2025/05/04-19:38:48.223 137e Delete type=0 #3
+2025/05/04-21:28:24.356 137e Level-0 table #7: started
+2025/05/04-21:28:24.360 137e Level-0 table #7: 12968 bytes OK
+2025/05/04-21:28:24.364 137e Delete type=0 #4
